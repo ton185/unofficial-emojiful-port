@@ -1,0 +1,10 @@
+emojiful.config.title=Emojiful
+emojiful.config.enableRenderEmoji=Enable Emoji Rendering
+emojiful.config.showEmojiSelector=Enable Emoji Selection GUI
+emojiful.config.emojiAutocomplete=Enable Emoji Autocomplete
+emojiful.config.loadGifEmojis=Load Animated Emojis (GIFs)
+emojiful.config.shortEmojiReplacement=Short Emoji Replacement
+emojiful.config.loadTwemoji=Load Twemoji
+emojiful.config.loadCustom=Load Custom Emojis
+emojiful.config.enableProfanityFilter=Enable Profanity Filter
+emojiful.config.profanityFilterReplacement=Profanity Replacement Word

@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "${modid}",
+    "name": "Emojiful",
+    "description": "Adds emoji to Minecraft chat — ported to Forge 1.8.9.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/emojiful",
+    "updateUrl": "",
+    "authorList": ["HorizonStudio"],
+    "credits": "Original mod by HorizonStudio. 1.8.9 port.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
