@@ -39,15 +39,15 @@ public class EmojifulConfig {
                 "Load animated emoji (GIFs). If disabled, a static frame is shown.");
         shortEmojiReplacement = config.getBoolean("short_emoji_replacement", "Emojiful", true,
                 "Replace :) with :smile: etc. so they render as emoji.");
-        smoothEmoji = config.getBoolean("smooth_emoji", "Emojiful", true,
+        smoothEmoji = config.getBoolean("smooth_emoji", "Emojiful", false,
                 "Use smooth (linear) filtering when rendering emoji textures. " +
-                "Disable for a pixelated look, enable for crisp emoji at all sizes.");
-        loadTwemoji = config.getBoolean("twemoji", "EmojiTypes", false,
+                "This looks bad, I wouldn't use it.");
+        loadTwemoji = config.getBoolean("twemoji", "EmojiTypes", true,
                 "Load Twemojis (used by Twitter/Discord).");
         loadCustom = config.getBoolean("custom", "EmojiTypes", true,
                 "Load custom emojis from the Emojiful asset repo.");
         profanityFilter = config.getBoolean("enabled", "ProfanityFilter", false,
-                "Enable the profanity filter.");
+                "Replaces swear words in outgoing messages with :swear:");
         profanityFilterReplacement = config.getString("replacement", "ProfanityFilter", ":swear:",
                 "Word used to replace filtered profanity.");
 
